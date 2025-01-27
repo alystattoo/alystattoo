@@ -62,7 +62,13 @@ export const customerReviews = [
         content: '10 điểm, quá ok về mọi mặt',
         avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjXfVuLT1Jul-sSGpk9s7MUa8XX433ZLxNZxhU3MclOlcJLe3ok=w36-h36-p-rp-mo-br100',
         linkGoogleMap: 'https://maps.app.goo.gl/nLDYyyDzLts7GGsg9'
-    }
+    },
+    {
+        name: 'Dinh Cong',
+        content: 'Ok phết',
+        avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjXDR_niiRs9Yuapa4FLgQ4Nop3EbTmbK_EDw1ad3HJfTGKzmaA=w60-h60-p-rp-mo-br100',
+        linkGoogleMap: 'https://maps.app.goo.gl/CL6DSumNr1afn4vQ8'
+    },
 ]
 
 //Thời gian làm việc
@@ -95,17 +101,17 @@ export const priceList = [
     {
         name: 'Xăm hình nghệ thuật',
         desc: 'Siêu nghệ với hình xăm độc lạ, thể hiện chất riêng trên cơ thể! 🎨',
-        price: 'chỉ từ 600.000 ₫'
+        price: 'chỉ từ 299.000 ₫' 
     },
     {
         name: 'Cover hình',
         desc: 'Che phủ hoàn hảo, hô biến những hình cũ thành siêu phẩm mới! 🔥',
-        price: 'chỉ từ 450.000 ₫'
+        price: 'chỉ từ 999.000 ₫'
     },
     {
         name: 'Xỏ khuyên cá tính',
         desc: 'Đa phong cách, xịn mịn, khuyên nào cũng chất! 🛠️',
-        price: 'chỉ từ 300.000 ₫'
+        price: 'chỉ từ 199.000 ₫'
     },
     {
         name: 'Xóa xăm bằng Laser',
@@ -121,7 +127,7 @@ export const artists = [
         avatar: 'DangVanLy.webp',
         job: 'Tattoo & Piercing Artist',
         desc: 'Thợ xăm chính hiệu, chuyên nghiệp và tận tâm. Hãy để Alys giúp bạn thể hiện phong cách riêng trên cơ thể!',
-        phone_number: '0763 919 592',
+        phone_number: '0763 91 95 92',
         link_profile: 'DangVanLy-details.html',
         socials: [
             {

@@ -1,5 +1,5 @@
 // Số điện thoại studio
-export const phoneNumber = '0763 91 95 92'
+export const phoneNumber = '0763 91 95 93'
 
 // Địa chỉ studio
 export const location = {
@@ -56,17 +56,23 @@ export const customerReviews = [
         content: 'Thợ xăm vui vẻ, xăm rất tỉ mỉ quá ok.',
         avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjVhGQkDZNrglALjkbeyg6n_4IyFnvu3hrZL_vhHNtj6GIvSO0BX=w120-h120-p-rp-mo-br100',
         linkGoogleMap: 'https://maps.app.goo.gl/Fa946DdKC8euQL5T7'
+    },
+    {
+        name: '12C3 Hoàng Phước',
+        content: '10 điểm, quá ok về mọi mặt',
+        avatar: 'https://lh3.googleusercontent.com/a-/ALV-UjXfVuLT1Jul-sSGpk9s7MUa8XX433ZLxNZxhU3MclOlcJLe3ok=w36-h36-p-rp-mo-br100',
+        linkGoogleMap: 'https://maps.app.goo.gl/nLDYyyDzLts7GGsg9'
     }
 ]
 
 //Thời gian làm việc
 export const workingHour = [
-    {name: 'Thứ 2', time: '10:00 - 20:00'},
-    {name: 'Thứ 3', time: '10:00 - 20:00'},
-    {name: 'Thứ 4', time: '10:00 - 20:00'},
-    {name: 'Thứ 5', time: '10:00 - 20:00'},
-    {name: 'Thứ 6', time: '10:00 - 20:00'},
-    {name: 'Cuối tuần', time: 'Đóng cửa'}
+    {name: 'Thứ 2', time: '08:00 - 20:00'},
+    {name: 'Thứ 3', time: '08:00 - 20:00'},
+    {name: 'Thứ 4', time: '08:00 - 20:00'},
+    {name: 'Thứ 5', time: '08:00 - 20:00'},
+    {name: 'Thứ 6', time: '08:00 - 20:00'},
+    {name: 'Cuối tuần', time: '08:00 - 20:00'}
 ]
 
 //Album chất chơi studio

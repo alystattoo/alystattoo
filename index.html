@@ -16,7 +16,8 @@
     <link rel="shortcut icon" href="img/favicon.ico"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&amp;family=Oswald:wght@300;400;500;600;700&amp;display=swap">
     <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
-    <style> * {
+    <style>
+        * {
         margin: 0;
         padding: 0;
         -webkit-box-sizing: border-box;
@@ -265,9 +266,7 @@
 </div>
 <nav class="navbar navbar-expand-md" style="position: absolute; top: 0; left: 0; border: 0; padding: 0; background: 0 0; z-index: 99; height: 100px; width: 100%">
     <div class="container">
-        <div class="logo-wrapper" style="float: left;"><a class="logo" href="index.html" style="padding: 0; display: inline-block"><img class="logo-img" src="img/alysTattooLogo.png"
-                                                                                                                                        style="padding: 20px 0; width: 140px; text-align: center"
-                                                                                                                                        alt="AlysTattoo Logo"></a></div>
+        <div class="logo-wrapper" style="float: left;"><a class="logo" href="index.html" style="padding: 0; display: inline-block"><img class="logo-img" src="img/alysTattooLogo.png" style="padding: 20px 0; width: 140px; text-align: center" alt="AlysTattoo Logo"></a></div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon text-light" style="background-image: none"><i class="ti-menu"></i></span></button>
         <div class="collapse navbar-collapse" id="navbar">
@@ -379,22 +378,22 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="input1_wrapper"><label>Quý danh</label>
-                                            <div class="input2_inner"><input type="text" class="form-control input" placeholder="Quý danh" required></div>
+                                            <div class="input2_inner"><input type="text" id="name" class="form-control input" placeholder="Quý danh" required></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="input1_wrapper"><label>Số điện thoại</label>
-                                            <div class="input2_inner"><input type="text" class="form-control input" placeholder="Số điện thoại" required></div>
+                                            <div class="input2_inner"><input type="text" id="phone" class="form-control input" placeholder="Số điện thoại" required></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="input1_wrapper"><label>Ngày</label>
-                                            <div class="input1_inner"><input type="text" class="form-control input datepicker" placeholder="Ngày" required></div>
+                                            <div class="input1_inner"><input type="text" id="date" class="form-control input datepicker" placeholder="Ngày" required></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="select1_wrapper"><label>Thời gian</label>
-                                            <div class="select1_inner"><select class="select2 select" style="width: 100%">
+                                            <div class="select1_inner"><select id="time" class="select2 select" style="width: 100%">
                                                 <option value="0">Thời gian</option>
                                                 <option value="1">10:00 am</option>
                                                 <option value="2">11:00 am</option>
@@ -408,7 +407,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="select1_wrapper"><label>Services</label>
-                                            <div class="select1_inner"><select class="select2 select" style="width: 100%">
+                                            <div class="select1_inner"><select id="service" class="select2 select" style="width: 100%">
                                                 <option value="0">Dịch vụ xịn</option>
                                                 <option value="1">Xăm hình nghệ thuật</option>
                                                 <option value="2">Xóa xăm bằng Laser</option>
@@ -418,7 +417,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="select1_wrapper"><label>Choose Artist</label>
-                                            <div class="select1_inner"><select class="select2 select" style="width: 100%">
+                                            <div class="select1_inner"><select id="artist" class="select2 select" style="width: 100%">
                                                 <option value="0">Choose Artist</option>
                                                 <option value="1">Andreas</option>
                                                 <option value="2">Daniel</option>

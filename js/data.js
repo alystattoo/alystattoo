@@ -1,4 +1,4 @@
-// Số điện thoại studio
+ // Số điện thoại studio
 export const phoneNumber = '0763 91 95 92'
 
 // Địa chỉ studio

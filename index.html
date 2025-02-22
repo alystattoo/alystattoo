@@ -16,7 +16,8 @@
     <link rel="shortcut icon" href="img/favicon.ico"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&amp;family=Oswald:wght@300;400;500;600;700&amp;display=swap">
     <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
-    <style> * {
+    <style>
+        * {
         margin: 0;
         padding: 0;
         -webkit-box-sizing: border-box;
@@ -250,24 +251,14 @@
     <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
 </head>
 <body style="overflow-x: hidden !important; background: #101010;">
-<div class="preloader-bg"></div>
+
 <div class="cd-transition-layer visible opening">
     <div class="bg-layer"></div>
 </div>
-<div class="preloader-bg"></div>
-<div id="preloader">
-    <div id="preloader-status">
-        <div class="preloader-position loader"><span></span></div>
-    </div>
-</div>
-<div class="cd-transition-layer visible opening">
-    <div class="bg-layer"></div>
-</div>
+
 <nav class="navbar navbar-expand-md" style="position: absolute; top: 0; left: 0; border: 0; padding: 0; background: 0 0; z-index: 99; height: 100px; width: 100%">
     <div class="container">
-        <div class="logo-wrapper" style="float: left;"><a class="logo" href="index.html" style="padding: 0; display: inline-block"><img class="logo-img" src="img/alysTattooLogo.png"
-                                                                                                                                        style="padding: 20px 0; width: 140px; text-align: center"
-                                                                                                                                        alt="AlysTattoo Logo"></a></div>
+        <div class="logo-wrapper" style="float: left;"><a class="logo" href="index.html" style="padding: 0; display: inline-block"><img class="logo-img" src="img/alysTattooLogo.png" style="padding: 20px 0; width: 140px; text-align: center" alt="AlysTattoo Logo"></a></div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon text-light" style="background-image: none"><i class="ti-menu"></i></span></button>
         <div class="collapse navbar-collapse" id="navbar">
@@ -283,6 +274,7 @@
         </div>
     </div>
 </nav>
+
 <header id="home" data-scroll-index="0" class="header">
     <div class="video-fullscreen-wrap" style="height: 100vh; overflow: hidden">
         <div class="video-fullscreen-video" style="height: 100%; position: relative" data-overlay-dark="4">
@@ -302,7 +294,9 @@
         </div>
     </div>
 </header>
+
 <hr class="line-vr-section">
+
 <section id="about" data-scroll-index="1" class="about section-padding">
     <div class="container">
         <div class="row">
@@ -334,7 +328,9 @@
         </div>
     </div>
 </section>
+
 <hr class="line-vr-section">
+
 <section class="section-padding">
     <div class="container">
         <div class="row">
@@ -359,6 +355,7 @@
         </div>
     </div>
 </section>
+
 <section class="appointment" data-scroll-index="9">
     <div class="background bg-img bg-fixed section-padding" data-background="img/slider/2.webp" data-overlay-dark="3">
         <div class="container">
@@ -378,56 +375,61 @@
                             <form class="form1 clearfix">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="input1_wrapper"><label>Quý danh</label>
-                                            <div class="input2_inner"><input type="text" class="form-control input" placeholder="Quý danh" required></div>
+                                        <div class="input1_wrapper"><label>Tui tên</label>
+                                            <div class="input2_inner"><input type="text" id="name" class="form-control input" placeholder="Tui tên" required></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="input1_wrapper"><label>Số điện thoại</label>
-                                            <div class="input2_inner"><input type="text" class="form-control input" placeholder="Số điện thoại" required></div>
+                                            <div class="input2_inner"><input type="text" id="phone" class="form-control input" placeholder="Số điện thoại" required></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="input1_wrapper"><label>Ngày</label>
-                                            <div class="input1_inner"><input type="text" class="form-control input datepicker" placeholder="Ngày" required></div>
+                                        <div class="input1_wrapper"><label>Chọn ngày</label>
+                                            <div class="input1_inner"><input type="text" id="date" class="form-control input datepicker" placeholder="Chọn ngày" required></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="select1_wrapper"><label>Thời gian</label>
-                                            <div class="select1_inner"><select class="select2 select" style="width: 100%">
-                                                <option value="0">Thời gian</option>
-                                                <option value="1">10:00 am</option>
-                                                <option value="2">11:00 am</option>
-                                                <option value="3">12:00 pm</option>
-                                                <option value="4">14:00 pm</option>
-                                                <option value="5">16:00 pm</option>
-                                                <option value="6">18:00 pm</option>
-                                                <option value="7">20:00 pm</option>
+                                            <div class="select1_inner"><select id="time" class="select2 select" style="width: 100%">
+                                                <option value="0">Chọn thời gian</option>
+                                                <option value="08:00">08:00</option>
+                                                <option value="09:00">09:00</option>
+                                                <option value="10:00">10:00</option>
+                                                <option value="11:00">11:00</option>
+                                                <option value="12:00">12:00</option>
+                                                <option value="13:00">13:00</option>
+                                                <option value="14:00">14:00</option>
+                                                <option value="15:00">15:00</option>
+                                                <option value="16:00">16:00</option>
+                                                <option value="17:00">17:00</option>
+                                                <option value="18:00">18:00</option>
+                                                <option value="19:00">19:00</option>
+                                                <option value="20:00">20:00</option>
                                             </select></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="select1_wrapper"><label>Services</label>
-                                            <div class="select1_inner"><select class="select2 select" style="width: 100%">
-                                                <option value="0">Dịch vụ xịn</option>
-                                                <option value="1">Xăm hình nghệ thuật</option>
-                                                <option value="2">Xóa xăm bằng Laser</option>
-                                                <option value="4">Xỏ khuyên cá tính</option>
+                                            <div class="select1_inner"><select id="service" class="select2 select" style="width: 100%">
+                                                <option value="">Chọn dịch vụ xịn</option>
+                                                <option value="Xăm hình nghệ thuật">Xăm hình nghệ thuật</option>
+                                                <option value="Xóa xăm bằng Laser">Xóa xăm bằng Laser</option>
+                                                <option value="Xỏ khuyên cá tính">Xỏ khuyên cá tính</option>
                                             </select></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="select1_wrapper"><label>Choose Artist</label>
-                                            <div class="select1_inner"><select class="select2 select" style="width: 100%">
-                                                <option value="0">Choose Artist</option>
-                                                <option value="1">Andreas</option>
-                                                <option value="2">Daniel</option>
-                                                <option value="3">Jason</option>
+                                        <div class="select1_wrapper"><label>Chọn Artist</label>
+                                            <div class="select1_inner"><select id="artist" class="select2 select" style="width: 100%">
+                                                <option value="0">Chọn Artist</option>
+                                                <option value="Lý Đặng">Lý Đặng</option>
+                                                <option value="Mỹ Diệu">Mỹ Diệu</option>
                                             </select></div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <button type="submit" disabled class="btn-form1-submit mt-15">ĐẶT LỊCH NGAY</button>
+                                        <button type="button" class="btn-form1-submit mt-15">ĐẶT LỊCH NGAY</button>
                                     </div>
                                 </div>
                             </form>
@@ -438,6 +440,7 @@
         </div>
     </div>
 </section>
+
 <section id="services" data-scroll-index="2" class="services section-padding">
     <div class="container">
         <div class="row mb-30">
@@ -487,7 +490,9 @@
         </div>
     </div>
 </section>
+
 <hr class="line-vr-section">
+
 <section id="team" data-scroll-index="3" class="team section-padding">
     <div class="container">
         <div class="row mb-30">
@@ -503,18 +508,22 @@
         </div>
     </div>
 </section>
+
 <hr class="line-vr-section">
+
 <section id="portfolio" data-scroll-index="4" class="section-padding">
-    <div class="container">
+    <div class="container text-center">
         <div class="row mb-30">
-            <div class="section-head col-md-12 text-center">
+            <div class="section-head col-md-12">
                 <div class="section-subtitle">Album chất chơi</div>
                 <div class="section-title white">Công việc của<span>tụi tui</span></div>
             </div>
         </div>
         <div class="row" id="gallery"></div>
+        <a href="./gallery.html" class="btn-curve btn-1 mt-30 text-center my-auto"><span>Xem thêm</span></a>
     </div>
 </section>
+
 <section id="pricing" data-scroll-index="5" class="price-banner menu-book bg-blck">
     <div class="container-fluid">
         <div class="row">
@@ -531,7 +540,8 @@
         </div>
     </div>
 </section>
-<section id="contact" data-scroll-index="7" class="testimonials video-wrapper video">
+
+<section id="reviews" data-scroll-index="7" class="testimonials video-wrapper video">
     <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/2.webp" data-overlay-dark="3">
         <div class="container">
             <div class="row">
@@ -556,6 +566,7 @@
         </div>
     </div>
 </section>
+
 <section class="clients">
     <div class="container">
         <div class="row">
@@ -572,12 +583,15 @@
         </div>
     </div>
 </section>
+
 <div class="progress-wrap cursor-pointer">
     <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
     </svg>
 </div>
+
 <footer class="footer"></footer>
+
 <script src="js/jquery-3.6.3.min.js" defer></script>
 <script src="js/jquery-migrate-3.0.0.min.js" defer></script>
 <script src="js/modernizr-2.6.2.min.js" defer></script>
@@ -591,6 +605,7 @@
 <script src="js/YouTubePopUp.js" defer></script>
 <script src="js/select2.js" defer></script>
 <script src="js/datepicker.js" defer></script>
+<script src="js/sweetalert2/dist/sweetalert2.all.min.js"></script>
 <script src="js/custom.min.js" defer type="module"></script>
 </body>
 </html>

@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cff9c53-f4a0-4ea8-b0e9-b23af797944a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DangVanLy-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/DangVanLy-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyDieu-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyDieu-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dinh-vu-xin.html" beforeDir="false" afterPath="$PROJECT_DIR$/dinh-vu-xin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+    <list default="true" id="9cff9c53-f4a0-4ea8-b0e9-b23af797944a" name="Changes" comment="Add footer section with contact information and working hours to multiple pages">
+      <change afterPath="$PROJECT_DIR$/tin-tuc-and-xu-huong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tin-tuc-va-xu-huong/xam-hinh-mini-–-xu-huong-nho-nhung-co-vo-cuc-chat-cho-gen-z.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/tin-tuc-va-xu-huong/xam-hinh-nghe-thuat-phong-cach-gen-z-sieu-chill-va-sanh-djieu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xam-hinh-nghe-thuat.html" beforeDir="false" afterPath="$PROJECT_DIR$/xam-hinh-nghe-thuat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xo-khuyen-ca-tinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/xo-khuyen-ca-tinh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xoa-xam-bang-laser.html" beforeDir="false" afterPath="$PROJECT_DIR$/xoa-xam-bang-laser.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BuiVanHuy001&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BuiVanHuy001/alystattoo.git&quot;,
+    &quot;accountId&quot;: &quot;c2aa8ea3-b452-46d0-a3a3-fc624262b8d5&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -65,6 +73,8 @@
       <recent name="$PROJECT_DIR$/img/gallery" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tin-tuc-va-xu-huong" />
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img/slider" />
       <recent name="$PROJECT_DIR$/js" />
@@ -97,11 +107,33 @@
       <workItem from="1739421811868" duration="19000" />
       <workItem from="1740226027798" duration="4222000" />
       <workItem from="1740230626504" duration="1820000" />
-      <workItem from="1741608376733" duration="6445000" />
+      <workItem from="1741608376733" duration="6829000" />
+      <workItem from="1741770003249" duration="6211000" />
     </task>
+    <task id="LOCAL-00001" summary="Add footer section with contact information and working hours to multiple pages">
+      <option name="closed" value="true" />
+      <created>1741615072954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741615072954</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add footer section with contact information and working hours to multiple pages">
+      <option name="closed" value="true" />
+      <created>1741615130001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741615130001</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add footer section with contact information and working hours to multiple pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add footer section with contact information and working hours to multiple pages" />
   </component>
 </project>

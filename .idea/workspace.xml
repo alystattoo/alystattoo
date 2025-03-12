@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cff9c53-f4a0-4ea8-b0e9-b23af797944a" name="Changes" comment="Add footer section with contact information and working hours to multiple pages">
-      <change afterPath="$PROJECT_DIR$/tin-tuc-and-xu-huong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tin-tuc-va-xu-huong/xam-hinh-mini-–-xu-huong-nho-nhung-co-vo-cuc-chat-cho-gen-z.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/tin-tuc-va-xu-huong/xam-hinh-nghe-thuat-phong-cach-gen-z-sieu-chill-va-sanh-djieu.html" afterDir="false" />
+    <list default="true" id="9cff9c53-f4a0-4ea8-b0e9-b23af797944a" name="Changes" comment="Update image paths and add new blog posts">
+      <change afterPath="$PROJECT_DIR$/img/slider/3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyDieu-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyDieu-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/about.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/services/1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/services/1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/services/3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/services/3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/services/4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/services/4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider/2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/slider/2.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,25 +52,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.11.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.10.10&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/buivanhuy/WebStormProjects/alystattoo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Merging main",
+    "javascript.nodejs.core.library.configured.version": "22.11.0",
+    "javascript.nodejs.core.library.typings.version": "22.10.10",
+    "last_opened_file_path": "/Users/buivanhuy/WebStormProjects/alystattoo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img/slider" />
@@ -108,7 +112,7 @@
       <workItem from="1740226027798" duration="4222000" />
       <workItem from="1740230626504" duration="1820000" />
       <workItem from="1741608376733" duration="6829000" />
-      <workItem from="1741770003249" duration="6211000" />
+      <workItem from="1741770003249" duration="6542000" />
     </task>
     <task id="LOCAL-00001" summary="Add footer section with contact information and working hours to multiple pages">
       <option name="closed" value="true" />
@@ -126,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741615130001</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update image paths and add new blog posts">
+      <option name="closed" value="true" />
+      <created>1741776525389</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741776525389</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add footer section with contact information and working hours to multiple pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add footer section with contact information and working hours to multiple pages" />
+    <MESSAGE value="Update image paths and add new blog posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update image paths and add new blog posts" />
   </component>
 </project>

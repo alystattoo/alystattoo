@@ -3,7 +3,7 @@ export const phoneNumber = '0763 91 95 92'
 
 // Địa chỉ studio
 export const location = {
-    address: '197L Trần Hưng Đạo, Phường 5, Vị Thanh, Hậu Giang 95107, Việt Nam',
+    address: '56 Ngô Quốc Trị, Phường 5, Vị Thanh, Hậu Giang 95107, Việt Nam',
     linkGoogleMap: 'https://www.google.com/maps/place/Alys+tattoo/@9.7886952,105.4707373,16.8z/data=!4m16!1m9!3m8!1s0x31a095cd05ff3b13:0x890f542776f605a7!2sAlys+tattoo!8m2!3d9.78886!4d105.4730565!9m1!1b1!16s%2Fg%2F11svnycyg0!3m5!1s0x31a095cd05ff3b13:0x890f542776f605a7!8m2!3d9.78886!4d105.4730565!16s%2Fg%2F11svnycyg0?hl=vi&entry=ttu&g_ep=EgoyMDI1MDEwNi4xIKXMDSoASAFQAw%3D%3D',
     miniMap: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3931.7304502291977!2d105.4730565!3d9.78886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a095cd05ff3b13%3A0x890f542776f605a7!2sAlys%20tattoo!5e0!3m2!1svi!2ssg!4v1736423887892!5m2!1svi!2ssg" width="360" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
 }
@@ -101,7 +101,7 @@ export const priceList = [
     {
         name: 'Xăm hình nghệ thuật',
         desc: 'Siêu nghệ với hình xăm độc lạ, thể hiện chất riêng trên cơ thể! 🎨',
-        price: 'chỉ từ 299.000 ₫' 
+        price: 'chỉ từ 300.000 ₫' 
     },
     {
         name: 'Cover hình',
@@ -111,7 +111,7 @@ export const priceList = [
     {
         name: 'Xỏ khuyên cá tính',
         desc: 'Đa phong cách, xịn mịn, khuyên nào cũng chất! 🛠️',
-        price: 'chỉ từ 199.000 ₫'
+        price: 'chỉ từ 150.000 ₫'
     },
     {
         name: 'Xóa xăm bằng Laser',
